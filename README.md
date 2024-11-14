@@ -5,11 +5,8 @@ This repository contains Terraform configurations to provision resources in Azur
 ## Table of Contents
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
-- [Setting Up IDE](#setting-up-ide)
 - [Project Structure](#project-structure)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Prerequisites
 
@@ -53,3 +50,12 @@ Clone this Git repository to your local machine using Git Bash or a terminal:
 git clone <remote-repo-URL>
 cd <repository-folder-name>
 
+### 2. Configure Azure Authentication
+Make sure you are logged in to your Azure account using Azure CLI:
+```bash
+az login
+
+### 3. Initialize Terraform
+Navigate to the folder containing your .tf files and initialize the Terraform environment:
+```bash
+terraform init
