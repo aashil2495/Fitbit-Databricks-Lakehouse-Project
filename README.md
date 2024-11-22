@@ -47,8 +47,8 @@ Before you begin, ensure you have the following installed:
 ### 1. Clone the Repository
 Clone this Git repository to your local machine using Git Bash or a terminal:
 ```bash
-git clone <remote-repo-URL>
-cd <repository-folder-name>
+git clone [<remote-repo-URL>](https://github.com/aashil2495/Fitbit-Databricks-Lakehouse-Project.git)
+cd Fitbit-Databricks-Lakehouse-Project.git
 
 ### 2. Configure Azure Authentication
 Make sure you are logged in to your Azure account using Azure CLI:
